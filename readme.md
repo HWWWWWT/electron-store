@@ -1,20 +1,20 @@
 # 秀站网编辑器
 
 ## 目录
-- [背景](#background)
-- [安装](#install)
-- [使用](#usage)
-- [技术点](#skill)
-  - [Vue](#vue)
-    - [组件之间传值](#prop)
-    - [非父子组件之间传值](#eventbus)
-    - [追踪变化](#update)
-    - [检测变化的注意事项](#updatewarn)
+- [背景](#背景)
+- [安装](#安装)
+- [使用](#使用)
+- [技术点](#技术点)
+  - [Vue](#Vue)
+    - [组件之间传值](#组件之间传值)
+    - [非父子组件之间传值](#非父子组件之间传值)
+    - [追踪变化](#追踪变化)
+    - [检测变化的注意事项](#检测变化的注意事项)
     - [nextTick](#nextTick)
   - [vuex](#vuex)
   - [axios](#axios)
-  - [GSAP](#gsap)
-    - [tweenmax](#teenmax)
+  - [GSAP](#GSAP)
+    - [tweenmax](#tweenmax)
 
 ## 背景
 
