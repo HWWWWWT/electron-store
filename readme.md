@@ -47,7 +47,7 @@ npm run dev or npm start
 #### 非父子组件之间传值
 依赖vue实例的 `$emit`、`$on`, 实现了发布订阅模式。
 注意：组件销毁时，需要调用`$off`进行取消订阅，否则会触发多次订阅事件。
-#### [追踪变化](https://cn.vuejs.org/v2/guide/reactivity.html#%E5%A6%82%E4%BD%95%E8%BF%BD%E8%B8%AA%E5%8F%98%E5%8C%96)
+#### [update](https://cn.vuejs.org/v2/guide/reactivity.html#%E5%A6%82%E4%BD%95%E8%BF%BD%E8%B8%AA%E5%8F%98%E5%8C%96)
 `vue2+` 使用 `Object.defineProperty` 将vue组件里的`propoty` 转为 `getter/setter`<br>
 `vue3+` 使用 `proxy`<br>
 `vue2` 中每个组件实例都对应一个 `watcher` 实例，它会在组件渲染的过程中把“接触”过的数据 property 记录为依赖。之后当依赖项的 setter 触发时，会通知 `watcher`，从而使它关联的组件重新渲染。使用`vue2`时，需要编写更小颗粒度的组件，实现性能优化。<br>
